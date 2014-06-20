@@ -11,12 +11,12 @@ public class ServiceCheck extends ResourceSupport {
     private final String host;
 
     @JsonCreator
-    public ServiceCheck(@JsonProperty("id") long serviceCheckId, @JsonProperty("host") String host) {
+    public ServiceCheck(@JsonProperty("serviceCheckId") long serviceCheckId, @JsonProperty("host") String host) {
         this.serviceCheckId = serviceCheckId;
         this.host = host;
     }
 
-    public long getServiceCheckIdId() {
+    public long getServiceCheckId() {
         return serviceCheckId;
     }
 
