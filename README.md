@@ -48,7 +48,7 @@ The REST API will have the following methods.
 |/service/checks/{check ID} | DELETE | Request the deletion of a specific check |
 |/service/checks/{check ID}/status | GET |Ask for the status of a specific check |
 |/service/checks/{check ID}/execute | GET |Execute the check for the specified service |
-|/service/checks/add   | POST | Add a new check  |
+|/service/checks/ | POST | Add a new check  |
 
 
 
